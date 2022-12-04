@@ -1,6 +1,6 @@
-console.log(findEgozentrics(3))
+console.log(findEgocentrics(3))
 
-function findEgozentrics(length) {
+function findEgocentrics(length) {
   let biggestNumber = "";
   let smallestNumber = "";
   for (let i = 0; i < length; ++i) {
