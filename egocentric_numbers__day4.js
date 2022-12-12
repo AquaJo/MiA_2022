@@ -1,3 +1,4 @@
+// Simple, inefficient solution for finding all "egozentric" numbers with given length. Based on MiA, day 4.
 console.log(findEgocentrics(3)) // returns all numbers from 100 to 999, following the rule: firstNum^1, secondNum^2, thirdNum^3, (the more the bigger the param is)  & the resulting number is the same as the iteration number. 
 
 function findEgocentrics(length) {
